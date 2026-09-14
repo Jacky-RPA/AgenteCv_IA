@@ -1,0 +1,38 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated documents and local test artifacts
+*.docx
+*.docx~
+word_*.docx
+cv_*.docx
+
+# Uploaded or private CV/reference documents
+PDFs/*.pdf
+
+# Logs and local runtime files
+*.log
+.streamlit/
